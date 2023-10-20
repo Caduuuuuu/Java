@@ -1,0 +1,21 @@
+public class ContaBancaria {
+    public int numeroConta;
+    public int saldo;
+   public int sacar;
+   public int depositar;
+   public int exibirSaldo;
+
+ public ContaBancaria(){
+ }
+    public ContaBancaria(int numerodaconta, int saldo){
+    this.numeroConta = numerodaconta;
+    this.saldo = saldo;
+    }
+    
+    public static void main(String[]args){
+ContaBancaria Conta1 = new ContaBancaria(1234, 1000);
+       Conta1.depositar = 500;
+       Conta1.sacar = 499;
+       Conta1.exibirSaldo =  11;
+}
+}                
